@@ -9,7 +9,7 @@ Ultimate Web Scraper is an excellent Chrome extension that facilitates the rapid
 ## Usage
 
 ```
-git clone https://github.com/UltimateWebScraper/UltimateWebScraper.git
+git clone https://github.com/jianboy/UltimateWebScraper.git
 ```
 Installed extensions, Load unpacked
 

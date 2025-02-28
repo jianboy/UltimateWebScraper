@@ -11,7 +11,7 @@ Ultimate Web Scraper 是一个非常棒的 chrome 插件，帮助快速提取网
 
 
 ```
-git clone https://github.com/UltimateWebScraper/UltimateWebScraper.git
+git clone https://github.com/jianboy/UltimateWebScraper.git
 
 ```
 Installed extensions, Load unpacked
