@@ -1,0 +1,32 @@
+{
+   "action": {
+      "default_icon": "icon.png",
+      "default_title": "PandaExtract"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "default_locale": "en",
+   "description": "__MSG_extension_description__",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAg5hacR2lYghO6UNujg+0Rsg7NMBDCbsc316/veNnzuj7bVlawRk3xbVS0TOgB6D/qpngVdZf1G074exH26U+oqWPgeHxbnrT0Jy6QzImHoD1HTQImCuJEw0lDI4ZjpMg7SCFcmkUzIt6SziB/kIwRTZ2tpgzfcBKpx0sl8TcbPrBC1Hat8bEFUnjicBnL1dIGqGC1GnBxnoHzYtua2ah3f7thpLvGOuCh1cjzKRxGI5suhed910We3F3rp1USP3qncWnC+tAfop45P0pshQh4zMfzGvJu4gSFvholsfUpxNGOy6zg7S2R30nBBaBFyl70/TVYUoTmqoq3g8EMgU92wIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_extension_name__",
+   "optional_host_permissions": [ "\u003Call_urls>" ],
+   "optional_permissions": [ "downloads", "clipboardWrite" ],
+   "options_ui": {
+      "open_in_tab": false,
+      "page": "options.html"
+   },
+   "permissions": [ "activeTab", "scripting", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.6.0",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "assets/*" ]
+   } ]
+}
