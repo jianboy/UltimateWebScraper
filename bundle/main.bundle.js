@@ -42472,7 +42472,7 @@
 				className: "flex items-center gap-2"
 			}, e.createElement("span", {
 				className: "text-sm font-medium text-zinc-200"
-			}, "Parallel Tabs"), !s.isPro && e.createElement("span", {
+			}, "Parallel Tabs"), false && e.createElement("span", {
 				className: "px-2 py-0.5 text-[10px] font-bold bg-gradient-to-r from-amber-400 to-amber-500 text-zinc-900 rounded-full"
 			}, "PRO")), e.createElement("span", {
 				className: "text-xs text-zinc-400"
@@ -42491,11 +42491,7 @@
 				className: "w-8 text-center font-medium text-sm text-zinc-200"
 			}, w), e.createElement("button", {
 				onClick: function() {
-					s.isPro ? x(Math.min(5, w + 1)) : l((function(e) {
-						return sw(sw({}, e), {}, {
-							showUpsell: !0
-						})
-					}))
+					x(Math.min(5, w + 1))
 				},
 				className: "p-1.5 bg-zinc-800 rounded-md hover:bg-indigo-500 transition-colors",
 				disabled: w >= 5
